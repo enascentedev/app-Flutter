@@ -1,0 +1,57 @@
+## ----- ----- -----
+
+Estudos: Flutter 
+Autor: Emanuel
+seção: 4
+aulas 13 a 24
+
+
+-- ----- ----- -----
+Aula 13 
+
+Configuração gerais de ambiente flutter
+
+-- ----- ----- -----
+Aula 14 
+
+Falou sobre os tamanhos de tela, falou sobre o que é pixel , flutter utiliza pixel lógico , uma técnica chamada device pixel ratio
+
+-- ----- ----- -----
+Aula 15 Responsividade com MediaQuery
+
+Usou MediaQuery para capturar os tamanhos de largura e altura das telas e guardou os valores em variáveis.
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- -----
+
+-- ----- ----- ----- ##
+
