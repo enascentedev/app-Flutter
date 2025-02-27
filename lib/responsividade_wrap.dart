@@ -10,12 +10,13 @@ class ResponsividadeWrap extends StatefulWidget {
 class _ResponsividadeWrapState extends State<ResponsividadeWrap> {
   @override
   Widget build(BuildContext context) {
-
     double altura = 100;
     double largura = 200;
 
     return Scaffold(
-      appBar: AppBar(title: Text('Wrap'),),
+      appBar: AppBar(
+        title: Text('Wrap'),
+      ),
       body: Container(
         color: Colors.black26,
         width: MediaQuery.of(context).size.width,

@@ -11,10 +11,10 @@ void main() {
     title: "Flutter Web",
     debugShowCheckedModeBanner: false,
     //home: ResponsividadeMediaQuery(),
-    //home: ResponsividadeRowCol(),
-    //home: ResponsividadeWrap(),
-    //home: Orientacao(),
-    //home: RegrasLayout(),
-    home: ListaLayout(),
+    // home: ResponsividadeRowCol(),
+    // home: ResponsividadeWrap(),
+    // home: Orientacao(),
+    home: RegrasLayout(),
+    // home: ListaLayout(),
   ));
 }

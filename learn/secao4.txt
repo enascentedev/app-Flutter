@@ -21,11 +21,42 @@ Aula 15 Responsividade com MediaQuery
 
 Usou MediaQuery para capturar os tamanhos de largura e altura das telas e guardou os valores em variáveis.
 
--- ----- ----- -----
--- ----- ----- -----
 
 -- ----- ----- -----
+Aula 16 Responsividade com Row & Column
 
+Dividiu a aplicação em pequenas caixas com cores diferentes , para explicar o uso do Expanded,row, Column, container, children e como funciona o body 
+em geral.
+
+-- ----- ----- -----
+Aula 17 Utilizando Widget Wrap
+
+Bem parecido com o flex wrap , possui os mesmos alinhamentos do flex , mas escritos de forma diferente:
+alignment: WrapAlignment.center
+alignment: WrapAlignment.end
+alignment: WrapAlignment.start,
+lembrando do flex , exist o gap tbm, no flutter é trabalho dois tipos de espaços runSpacing(vertical), spacing(horizontal)
+          
+
+-- ----- ----- -----
+Aula 18  Utilizando OrientationBuilder
+mostrou dois contextos de orientação  Portraint e Landscape no mobile é a orientação do telefone ( deitado ou de pé na web quando a tela fica menor ou grande ) conforme a orientação
+muda a o texto (conforme código abaixo)
+  builder: (context, orientacao){
+return Container(
+  child: orientacao == Orientation.portrait
+    ? Text('Portraint')
+    : Text('Landscape')
+);
+depois mostrou a opção de layout em GridView (parecido com o grid do css) e usou um ternario para definir a exibição em 2 ou 4 colunas :
+crossAxisCount: orientacao == Orientation.portrait ? 2 : 4 ,
+-- ----- ----- -----
+Aula 19  Utilizando LayoutBuilder
+
+Explicou todo o funcionamento do LayoutBuilder , ele trabalha com dois parametros : context, constraint
+context: O context representa o local do widget na árvore e permite acessar temas, navegação e dados herdados.
+constraint: atraves desse parâmetro conseguimos capturar tamanhos de tela
+criou alguns if e elses que imprimem mensagens conforme o tamanho de tela
 -- ----- ----- -----
 -- ----- ----- -----
 

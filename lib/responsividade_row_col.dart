@@ -10,7 +10,6 @@ class ResponsividadeRowCol extends StatefulWidget {
 class _ResponsividadeRowColState extends State<ResponsividadeRowCol> {
   @override
   Widget build(BuildContext context) {
-
     var largura = MediaQuery.of(context).size.width;
     var altura = MediaQuery.of(context).size.height;
 
@@ -25,42 +24,36 @@ class _ResponsividadeRowColState extends State<ResponsividadeRowCol> {
           //   height: 200,
           // ),
           Expanded(
-            flex: 2,
+              flex: 1,
               child: Container(
                 color: Colors.red,
-              )
-          ),
+              )),
           Expanded(
-              flex: 6,
+              flex: 2,
               child: Row(
                 children: [
                   Expanded(
                       flex: 1,
                       child: Container(
-                        color: Colors.pink,
-                      )
-                  ),
+                        color: Colors.brown,
+                      )),
                   Expanded(
                       flex: 1,
                       child: Container(
                         color: Colors.purple,
-                      )
-                  ),
+                      )),
                   Expanded(
                       flex: 1,
                       child: Container(
                         color: Colors.green,
-                      )
-                  )
+                      ))
                 ],
-              )
-          ),
+              )),
           Expanded(
-            flex: 1,
+              flex: 1,
               child: Container(
                 color: Colors.yellow,
-              )
-          )
+              ))
         ],
       ),
     );
